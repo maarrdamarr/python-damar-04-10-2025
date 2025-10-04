@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1>Selamat Datang di Dunia Python</h1>
+        <p>Jelajahi kekuatan Python dalam pengembangan web modern</p>
+        <a href="/projects" class="cta-button">Lihat Proyek Kami</a>
+    </div>
+</section>
+
+<section class="features">
+    <h2>Mengapa Python?</h2>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <h3>Mudah Dipelajari</h3>
+            <p>Syntax yang jelas dan mudah dibaca membuat Python cocok untuk pemula.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Serbaguna</h3>
+            <p>Dari web development hingga data science, Python bisa digunakan untuk berbagai keperluan.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Komunitas Besar</h3>
+            <p>Dukungan komunitas yang kuat dengan banyak library dan framework.</p>
+        </div>
+    </div>
+</section>
+
+<section class="random-fact">
+    <h2>Fakta Acak tentang Python</h2>
+    <button id="fact-button">Dapatkan Fakta</button>
+    <p id="fact-text">Klik tombol untuk mengetahui fakta menarik tentang Python!</p>
+</section>
+{% endblock %}

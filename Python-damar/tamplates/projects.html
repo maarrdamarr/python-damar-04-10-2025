@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="projects">
+    <h1>Proyek Python Kami</h1>
+    
+    <div class="project-grid">
+        {% for project in projects %}
+        <div class="project-card">
+            <h3>{{ project.name }}</h3>
+            <p class="tech">{{ project.tech }}</p>
+            <button class="detail-button">Lihat Detail</button>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
